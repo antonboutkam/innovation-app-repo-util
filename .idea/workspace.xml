@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -20,9 +23,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5680709d-e00e-4a32-ab67-e5126338445e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/bin/repo-util" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Util/Helper/ApplicationLoader.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Util/Helper/DirectoryStructure.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../data-types/tests/Types/Type/PathTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Util/Command/Compare/SiteJson.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Util/Command/Git/GitClone.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Util/Command/Repositories/Show.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Util/Helper/BaseIterator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Util/Helper/Packagist.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Util/Helper/Packagist/AbstractType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Util/Helper/Packagist/IPackageInfo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Util/Helper/Packagist/InfoFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Util/Helper/Packagist/PackageIterator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Util/Helper/Packagist/Types/Api.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Util/Helper/Packagist/Types/Domain.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Util/Helper/Packagist/Types/Site.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Util/Model/PackageManager.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Util/View/Packages/All.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data-types/src/Types/Type/Path.php" beforeDir="false" afterPath="$PROJECT_DIR$/../data-types/src/Types/Type/Path.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ia-repo-util.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ia-repo-util.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/repo-util" beforeDir="false" afterPath="$PROJECT_DIR$/bin/repo-util" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Util/Helper/ApplicationLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Util/Helper/ApplicationLoader.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Util/Helper/DirectoryStructure.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Util/Helper/DirectoryStructure.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,9 +62,9 @@
     </execution>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../data-types" />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration">
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.4.5">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/symfony/finder" />
       <path value="$PROJECT_DIR$/vendor/symfony/service-contracts" />
@@ -93,9 +119,16 @@
       <path value="$PROJECT_DIR$/vendor/symfony/console" />
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
       <path value="$PROJECT_DIR$/vendor/hurah/data-types" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-client" />
+      <path value="$PROJECT_DIR$/vendor/ralouphie/getallheaders" />
     </include_path>
   </component>
   <component name="ProjectId" id="1lCkNBOyGa2lNW4JWmi2a3b7806" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -105,18 +138,51 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.jetbrains.php.phpunit.codeGeneration.PhpNewTestDialog.defaultLibrary" value="PHPUnit" />
     <property name="dumpAutoload /home/anton/Documents/sites/ia-repo-util/composer.json" value="--no-interaction --ansi --verbose" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="eu.ydp.idea.ts.spec.generator.settings.spec.template" value="import {$ClassName$} from '$TestsRelativePath$../src/$classRelativePath$/$ClassName$';&#10;&#10;describe('$ClassName$', () =&gt; {&#10;  let $ObjName$:$ClassName$;&#10;&#10;  beforeEach(() =&gt; {&#10;    $ObjName$ = new $ClassName$();&#10;  });&#10;&#10;  describe('', () =&gt; {&#10;    it('', () =&gt; {&#10;      // given&#10;&#10;      // when&#10;&#10;      // then&#10;    });&#10;  });&#10;});&#10;" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Util/Command/Clone" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.tabs" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Util/Command/Clone" />
+      <recent name="$PROJECT_DIR$/src/Util/Helper/Packagist/Types2" />
+      <recent name="$PROJECT_DIR$/src/Util/Helper" />
+      <recent name="$PROJECT_DIR$/src/Util/Command/Compare" />
+      <recent name="$PROJECT_DIR$/src/Util/Helper/Packagist/Types" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../data-types/tests/Types/Type" />
       <recent name="$PROJECT_DIR$/src/Util" />
     </key>
+  </component>
+  <component name="RunManager" selected="PHPUnit.PathTest">
+    <configuration name="PathTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Test\Hurah\Types\Type\PathTest" file="$PROJECT_DIR$/../data-types/tests/Types/Type/PathTest.php" scope="Class" />
+      <method v="2" />
+    </configuration>
+    <configuration name="PathTest.testWrite" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Test\Hurah\Types\Type\PathTest" file="$PROJECT_DIR$/../data-types/tests/Types/Type/PathTest.php" method="testWrite" scope="Method" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHPUnit.PathTest" />
+        <item itemvalue="PHPUnit.PathTest.testWrite" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -131,7 +197,19 @@
       <workItem from="1607108971565" duration="355000" />
       <workItem from="1607109367555" duration="399000" />
       <workItem from="1607115187940" duration="24000" />
-      <workItem from="1607131144901" duration="515000" />
+      <workItem from="1607131144901" duration="3027000" />
+      <workItem from="1607135779770" duration="1441000" />
+      <workItem from="1607137486094" duration="8000" />
+      <workItem from="1607139742027" duration="22000" />
+      <workItem from="1607144282770" duration="370000" />
+      <workItem from="1607144700999" duration="73000" />
+      <workItem from="1607144798384" duration="206000" />
+      <workItem from="1607145029623" duration="1923000" />
+      <workItem from="1607147005412" duration="938000" />
+      <workItem from="1607184834548" duration="1656000" />
+      <workItem from="1607186550056" duration="3353000" />
+      <workItem from="1607190716029" duration="268000" />
+      <workItem from="1607191028466" duration="4097000" />
     </task>
     <servers />
   </component>
@@ -151,10 +229,26 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="518" y="264" width="589" height="396" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607108588504">
+    <state x="464" y="86" width="700" height="752" key="#PHP" timestamp="1607194308350">
       <screen x="35" y="27" width="1565" height="873" />
     </state>
-    <state x="518" y="264" width="589" height="396" key="#com.intellij.fileTypes.FileTypeChooser/35.27.1565.873@35.27.1565.873" timestamp="1607108588504" />
+    <state x="464" y="86" width="700" height="752" key="#PHP/35.27.1565.873@35.27.1565.873" timestamp="1607194308350" />
+    <state x="518" y="264" width="619" height="396" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607144822209">
+      <screen x="35" y="27" width="1565" height="873" />
+    </state>
+    <state x="518" y="264" width="619" height="396" key="#com.intellij.fileTypes.FileTypeChooser/35.27.1565.873@35.27.1565.873" timestamp="1607144822209" />
+    <state x="607" y="143" width="411" height="638" key="#com.intellij.ide.util.MemberChooser" timestamp="1607185623867">
+      <screen x="35" y="27" width="1565" height="873" />
+    </state>
+    <state x="607" y="143" width="411" height="638" key="#com.intellij.ide.util.MemberChooser/35.27.1565.873@35.27.1565.873" timestamp="1607185623867" />
+    <state x="601" y="254" width="525" height="416" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1607135816176">
+      <screen x="35" y="27" width="1565" height="873" />
+    </state>
+    <state x="601" y="254" width="525" height="416" key="#com.intellij.ide.util.TreeClassChooserDialog/35.27.1565.873@35.27.1565.873" timestamp="1607135816176" />
+    <state x="513" y="59" width="598" height="807" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1607185896349">
+      <screen x="35" y="27" width="1565" height="873" />
+    </state>
+    <state x="513" y="59" width="598" height="807" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/35.27.1565.873@35.27.1565.873" timestamp="1607185896349" />
     <state x="590" y="341" key="ComposerDumpAutoloadDialog" timestamp="1607108736747">
       <screen x="35" y="27" width="1565" height="873" />
     </state>
@@ -163,13 +257,49 @@
       <screen x="35" y="27" width="1565" height="873" />
     </state>
     <state x="552" y="377" width="520" height="171" key="ComposerInitDialogKey/35.27.1565.873@35.27.1565.873" timestamp="1607108733748" />
-    <state x="496" y="182" width="633" height="561" key="NewPhpClassDialog" timestamp="1607109469449">
+    <state x="600" y="220" width="424" height="484" key="FileChooserDialogImpl" timestamp="1607139762062">
       <screen x="35" y="27" width="1565" height="873" />
     </state>
-    <state x="496" y="182" width="633" height="561" key="NewPhpClassDialog/35.27.1565.873@35.27.1565.873" timestamp="1607109469449" />
+    <state x="600" y="220" width="424" height="484" key="FileChooserDialogImpl/35.27.1565.873@35.27.1565.873" timestamp="1607139762062" />
+    <state width="1542" height="376" key="GridCell.Tab.0.bottom" timestamp="1607195126415">
+      <screen x="35" y="27" width="1565" height="873" />
+    </state>
+    <state width="1542" height="376" key="GridCell.Tab.0.bottom/35.27.1565.873@35.27.1565.873" timestamp="1607195126415" />
+    <state width="1542" height="376" key="GridCell.Tab.0.center" timestamp="1607195126414">
+      <screen x="35" y="27" width="1565" height="873" />
+    </state>
+    <state width="1542" height="376" key="GridCell.Tab.0.center/35.27.1565.873@35.27.1565.873" timestamp="1607195126414" />
+    <state width="1542" height="376" key="GridCell.Tab.0.left" timestamp="1607195126414">
+      <screen x="35" y="27" width="1565" height="873" />
+    </state>
+    <state width="1542" height="376" key="GridCell.Tab.0.left/35.27.1565.873@35.27.1565.873" timestamp="1607195126414" />
+    <state width="1542" height="376" key="GridCell.Tab.0.right" timestamp="1607195126415">
+      <screen x="35" y="27" width="1565" height="873" />
+    </state>
+    <state width="1542" height="376" key="GridCell.Tab.0.right/35.27.1565.873@35.27.1565.873" timestamp="1607195126415" />
+    <state x="496" y="182" width="761" height="561" key="NewPhpClassDialog" timestamp="1607185577665">
+      <screen x="35" y="27" width="1565" height="873" />
+    </state>
+    <state x="496" y="182" width="761" height="561" key="NewPhpClassDialog/35.27.1565.873@35.27.1565.873" timestamp="1607185577665" />
     <state x="613" y="388" width="399" height="149" key="NewPhpFileDialog" timestamp="1607109138182">
       <screen x="35" y="27" width="1565" height="873" />
     </state>
     <state x="613" y="388" width="399" height="149" key="NewPhpFileDialog/35.27.1565.873@35.27.1565.873" timestamp="1607109138182" />
+    <state x="403" y="268" width="887" height="498" key="com.jetbrains.php.test.PhpNewTestDialog" timestamp="1607192520520">
+      <screen x="35" y="27" width="1565" height="873" />
+    </state>
+    <state x="403" y="268" width="887" height="498" key="com.jetbrains.php.test.PhpNewTestDialog/35.27.1565.873@35.27.1565.873" timestamp="1607192520520" />
+    <state x="507" y="201" width="620" height="522" key="find.popup" timestamp="1607146320485">
+      <screen x="35" y="27" width="1565" height="873" />
+    </state>
+    <state x="507" y="201" width="620" height="522" key="find.popup/35.27.1565.873@35.27.1565.873" timestamp="1607146320485" />
+    <state x="480" y="212" width="672" height="678" key="search.everywhere.popup" timestamp="1607187687887">
+      <screen x="35" y="27" width="1565" height="873" />
+    </state>
+    <state x="480" y="212" width="672" height="678" key="search.everywhere.popup/35.27.1565.873@35.27.1565.873" timestamp="1607187687887" />
+    <state x="542" y="294" width="540" height="337" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1607137006582">
+      <screen x="35" y="27" width="1565" height="873" />
+    </state>
+    <state x="542" y="294" width="540" height="337" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/35.27.1565.873@35.27.1565.873" timestamp="1607137006582" />
   </component>
 </project>

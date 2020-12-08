@@ -2,14 +2,14 @@
     "name": "hurah/ia-repo-util",
     "description": "A collection of utilities i (will) use to maintain and inspect Novum Innovation App plugins",
     "require": {
-        "composer-plugin-api": "^1.1",
-        "composer-runtime-api": "^1.0",
         "composer/xdebug-handler": "^1.4",
         "composer/composer": "^2.0",
         "phpunit/phpunit": "^9.5",
         "symfony/console": "^5.2",
+        "hurah/data-types": "^1.0.0",
+        "guzzlehttp/guzzle": "^7.2",
         "php" : "^7.4",
-        "hurah/data-types": "^1.0"
+        "symfony/process": "^5.2"
     },
     "min-stability" : "dev",
     "license": "MIT",
@@ -22,7 +22,7 @@
     "autoload" : {
         "psr-4" : {
 
-            "\\Repo\\Util\\" : "src/Util"
+            "Repo\\Util\\" : "src/Util"
         }
     }
 }

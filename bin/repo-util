@@ -1,0 +1,9 @@
+#!/usr/bin/env php
+<?php
+// application.php
+
+use Repo\Util\Helper\ApplicationLoader;
+
+require dirname(__DIR__) . '/vendor/autoload.php';
+
+$oApplicationLoader = new ApplicationLoader();
